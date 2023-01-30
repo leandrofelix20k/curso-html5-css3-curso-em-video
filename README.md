@@ -1,4 +1,5 @@
 # Curso de HMTL5 e CSS3 do site Curso em Vídeo
+ Anotações e Resoluções de exercícios e desafios do curso de Python3
 
 ## Links do Curso:
 
