@@ -1,4 +1,21 @@
-    Aula - 00
-Repositórios do curso:
-https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf
-https://gustavoguanabara.github.io/
+Aula - 00
+
+    Repositórios do curso:
+        https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf
+        https://gustavoguanabara.github.io/
+
+Aula - 03
+
+    Referências:
+        Sites:
+            MDN - https://developer.mozilla.org/pt-BR/
+            W3C Standards - https://www.w3.org/standards/
+            WHATWG Living Standard - https://html.spec.whatwg.org/multipage/
+            W3Schools - https://www.w3schools.com/
+
+        Livros:
+            Coleção de livros da O'Reilly - HTML e CSS
+            HTML5 e CSS3: guia prático e visual - Elizabeth Castro
+            HTML e CSS: projete e construa websites - Jon Duckett
+            Use a cabeça! HTML e CSS - Eric Freeman, Elisabeth Robson
+            Coleção de livros do Mauricio Samy Silva
