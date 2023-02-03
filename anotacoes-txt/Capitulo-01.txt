@@ -1,10 +1,10 @@
-Aula - 00
+Aula 00 - O que vamos aprender
 
     Repositórios do curso:
         https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf
         https://gustavoguanabara.github.io/
 
-Aula - 03
+Aula 03 - Livros para aprender HTML5 e CSS3
 
     Referências:
         Sites:

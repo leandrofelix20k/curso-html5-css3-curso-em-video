@@ -1,0 +1,41 @@
+Aula 01 - Como a Internet funciona?
+
+    Representação de Dados:
+        Os equipamentos eletrônicos funcionam com sinais, sendo 
+        esses sinais, representados por dois números: 0 e 1 
+        (Digitos binários). O conjunto de 8 bits representa uma 
+        informação (1 byte).
+
+        -Tabela de Representação: Código multibyte UTF-8
+
+    Múltiplos do byte:
+         2^10 = 1024 bytes = 1KB
+                    1024 KB = 1 MB
+                        1024 MB = 1 GB
+                            1024 GB = 1 TB
+                                1024 TB = 1 PB
+                                    1024 PB = 1 EB
+                                        1024 EB = 1 ZB
+                                            1024 ZB = YB
+        MB != Mb
+
+        MB = Megabytes
+        Mb = Megabits
+
+        -O MB é utilizado para representar armazenamento
+            Ex: Meu HD tem 1 TB de armazenamento
+        -O Mb é utilizado para representa a transmissão de dados
+            Ex: Minha internet possui 100 Mbps de velocidade
+
+    Aula 02 - O que é domínio e hospedagem
+
+        URL:
+            www.github.com/gustavoguanabara
+
+            www - subdomínio
+            github - domínio
+            .com - TLD
+            gustavoguanabara - caminho
+            --------------------------
+            http - protocolo
+            https - protocolo c/ segurança
