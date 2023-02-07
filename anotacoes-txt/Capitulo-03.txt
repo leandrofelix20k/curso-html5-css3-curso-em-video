@@ -1,0 +1,64 @@
+Aula 01 - A diferença entre HTML, CSS e JavaScript
+
+    -HMTL e CSS não são linguagens de programação.
+    
+    -HTML é uma linguagem de marcação
+        -É focada no Conteúdo - textos, imagens, vídeos, tabelas...
+        -HTML = HYPERTEXT
+                MARKUP
+                LANGUAGE 
+
+    -CSS são folhas de estilo em cascata
+        -É focada no Design - cores, sombras, tamanhos, 
+         posicionamento...
+        -CSS = CASCADING
+               STYLE
+               SHEET
+    
+    -JavaScript é uma linguagem de programação
+        -É focada nas interações - menus, animações, popups,        
+         validações...
+
+    -Conteúdo em HTML:
+        Para criar um título:
+            <h1>Exemplo título</h1>
+
+        Para criar um parágrafo:
+            <p>Exemplo parágrafo</p>
+
+        Para adicionar uma foto:
+            <img src="foto.png" alt="Exemplo foto">
+        
+    -Estilo em CSS:
+#Seletor<-#     h1{ 
+                    font-family: Arial;    #Declaração
+                    font-size: 20pt;
+#propriedade<-#     color: Blue;   #->valor
+                }
+
+    -Estrutura básica HTML:
+        <!DOCTYPE html>
+        <html lang="pt-br">
+            <head>
+                <title>Título da página</title>
+                <meta charset="utf-8">
+            </head>
+            <body>
+                <h1>Olá, Mundo!</h1>
+            </body>
+        </html>
+            
+Aula 02 - Front-end, Back-end e Full stack
+    Front-end: 
+        -Está relacionado a parte do cliente (client-side).
+        -Desenvolver tecnológias em HTML, CSS e JavaScript.
+                    front-end != Designer
+    
+    Back-end:
+        -Está relacionado a parte do servidor (server-side).
+        -É voltado para interação entre código e o servidor.
+        -Linguagens utilizadas:
+            PHP, JavaScript, C#, Python, Ruby, Java.
+
+    Full-stack
+                    Front-end + Back-end
