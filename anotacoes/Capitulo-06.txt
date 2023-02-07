@@ -1,0 +1,10 @@
+Aula 01 - Você tem o direito de usar qualquer imagem no seu site?
+
+    -Alguns sites para buscar imagens sem copyright:
+        unsplash.com
+        pexels.com
+        freepik.com
+
+Aula 03 - O tamanho das imagens importa para um site?
+
+    -Utilizar imagens em sites com tamanho máximo de 1500px
