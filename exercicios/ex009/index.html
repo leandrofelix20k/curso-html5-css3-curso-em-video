@@ -4,42 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras Formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h2>
-    <h2>Código-fonte / Pré-formatado</h2>
-    <p>A tag &lt;code&gt; cria textos monoespaçadas</p>
-    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
-    <pre>
-        <code>
-    num = int(input('Digite um número: '))
-
-    if num > 10:
-        print('Shazam!')
-    else:
-        print('No!')
-        </code>
-    </pre>
-    <h2>Citações</h2>
-    <p>Como já diria Carl Sagan: <q>A falta de evidência não é a evidência da ausência.</q></p>
-    <h2>Citações completas</h2>
-    <p>Segundo Carl Sagan, no seu livro O mundo assombrado pelos demônios: A ciência vista como uma vela no escuro:</p>
-    <pre>
-        <code>
-            <blockquote cite="https://books.google.com.br/books?id=8ePUBQAAQBAJ&printsec=frontcover&hl=pt-BR#v=onepage&q&f=false">
-    Meus pais não era cientistas. Não sabiam quase nada
-    sobre ciência.Mas, ao me apresentar simultaneamente ao
-    ceticismo e à admiração, me ensinaram as duas formas de
-    pensar, de tão difícil convivência, centrais para o
-    método científico.
-            </blockquote>
-        </code>
-    </pre>
-    <h2>Abreviações</h2>
-    <p>Aprendendo <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
-    <h2>Textos invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo diversas coisas</bdo></p>
-    <p><bdo dir="rtl">socorram me subi no onibus em marrocos</bdo></p>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol >
+        <li>Acordar</li>
+        <li>Forrar a cama</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café
+        <li>Ligar o PC
+        <li>Acessar o site cursoemvideo.com
+    </ol>
+    <p><strong>Obs:</strong> A partir do HTML5, fechar a lista com &lt;\li&gt; é opcional!</p>
+    <h3>Tipos de númeração:</h3>
+    <ol type="I">
+        <li>'a' indica letras minúsculas</li>
+        <li>'A' indica letras maiúscula</li>
+        <li>'i' indica algarismos romanos minúsculos</li>
+        <li>'I' indica algarismos romanos maiúsculos</li>
+        <li>e '1' indica números (padrão)</li>
+    </ol>
+    <h3>Inicio da numeração</h3>
+    <ol start="3">
+        <li>Acordar</li>
+        <li>Forrar a cama</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café
+        <li>Ligar o PC
+        <li>Acessar o site cursoemvideo.com
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul>
+        <li>Death Stranding</li>
+        <li>GTA SA</li>
+        <li>GOW</li>
+        <li>CyberPunk 2077</li>
+        <li>Need For Speed</li>
+    </ul>
+    <h3>Tipos (types):</h3>
+    <ul type="square">
+        <li>disc - Uma bola totalmente preta (Padrão)</li>
+        <li>circle - Uma bola com uma borda preta e sem preenchimento</li>
+        <li>square - um pequeno quadrado preto totalmente pintado</li>
+    </ul>
+    <h2>Listas dentro de Listas</h2>
+    <h3>Jogos que eu Zerei:</h3>
+    <ol>
+        <li>Na Infância / Adolescência</li>
+        <ol type="A">
+            <li>GTA SA</li>
+            <li>Resident Evil 4</li>
+        </ol>
+        <li>Na Fase Adulta</li>
+        <ol type="A">
+            <li>Death Stranding</li>
+            <li>CyberPunk 2077</li>
+        </ol>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação de design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
 </body>
 </html>
